@@ -10,4 +10,49 @@ body .navbar {
   height: 71px;
   display: flex;
   border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(233, 233, 233);
+}
+body .navbar h5 {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+body .navbar .nav-links {
+  display: flex;
+  align-items: center;
+}
+body .navbar .nav-links ul li {
+  display: inline;
+  margin-right: 20px;
+}
+body .navbar .nav-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+body .navbar .nav-links button {
+  border: 1px solid rgb(0, 106, 255);
+  border-radius: 4px;
+  width: 80px;
+  height: 40px;
+  background-color: white;
+  font-size: 15px;
+  margin-right: 20px;
+}
+body .pricing-header {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+body .pricing-header h1 {
+  font-size: 55px;
+  font-weight: 100;
+  margin-top: 70px;
+}
+body .pricing-header p {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 30px;
+  font-weight: 100;
 }/*# sourceMappingURL=style.css.map */
